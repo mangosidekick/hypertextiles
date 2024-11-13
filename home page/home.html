@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>THE HYPERTEXTILES CATALOG AND COLLECTION</title>
+
+	<link rel="stylesheet" href="home.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Nova Square' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	>
+</head>
+
+<!-- bg color -->
+<body style= "background-color:#e7e5e5";> 
+
+<!--header-->
+
+	<header>
+
+<!-- Sidebar -->
+		 <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        id="hamburger"
+      >
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+      </svg>
+
+			<div id="overlay"></div>
+       <div id="sidebar">
+					<svg
+		        xmlns="http://www.w3.org/2000/svg"
+		        viewBox="0 0 24 24"
+		        id="hamburger2"
+		      >
+		        <path d="M0 0h24v24H0z" fill="none" />
+		        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+		      </svg>
+
+							<a href="#home" class="sidebar-item">
+		          <div id="bold">Home</div>
+		        </a>
+		        <a href="#about" class="sidebar-item">
+		          <div>About</div>
+		        </a>
+		        <a href="#contact" class="sidebar-item">
+		          <div>Contact</div>
+		        </a>
+
+		        <div class="line_side"></div>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" class="sidebar-item">
+		        	<div id="bold">Catalog</div>
+		        </a>
+
+		        <div class="dropdown">
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html #brands" class="sidebar-item">
+		          <div>Featured Brands <i class='fas fa-angle-right'></i></div>
+		        </a>
+		        <div class="dropdown-content ">
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\NIEPCE.html"> NIEPCE INC</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\ACRNM.html"> ACRNM</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\NEVSTUDIO.html"> NEVSTUDIO</a></div>
+				  	</div>
+		        </div>
+
+		        <div class="dropdown">
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html #category" class="sidebar-item">
+		          <div>Categories <i class='fas fa-angle-right'></i></div>
+		        </a>
+		        <div class="dropdown-content ">
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\selection pages\jackets.html"> Jackets</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\selection pages\pants.html"> Pants</a></div>
+				  	</div>
+		      	</div>
+
+		        <div class="line_side"></div>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\faq page\faq.html" class="sidebar-item">
+		        	<div id="bold">FAQ</div>
+		        </a>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\brand assets\brand-assets.html" class="sidebar-item">
+		        	<div id="bold">Brand Assets</div>
+		        </a>
+      </div>
+
+      <script type="text/javascript">
+      	const hamburger = document.getElementById('hamburger')
+      	const hamburger2 = document.getElementById('hamburger2')
+				const sidebar = document.getElementById('sidebar')
+				const overlay = document.getElementById('overlay')
+
+				let menuOpen = false
+
+				function openMenu() {
+				  menuOpen = true
+				  overlay.style.display = 'block'
+				  sidebar.style.width = '200px'
+				}
+
+				function closeMenu() {
+				  menuOpen = false
+				  overlay.style.display = 'none'
+				  sidebar.style.width = '0px'
+				}
+
+				hamburger.addEventListener('click', function () {
+				  if (!menuOpen) {
+				    openMenu()
+				  }
+				})
+
+				overlay.addEventListener('click', function () {
+				  if (menuOpen) {
+				    closeMenu()
+				  }
+				})				
+
+				hamburger2.addEventListener('click', function () {
+				  if (menuOpen) {
+				    closeMenu()
+				  }
+				})
+
+			</script>
+
+      <!--options-->
+	    <div class="container">
+	    	<a href="home.html">
+	      <img class="logo" src="logo.png" alt="Naevis Icon">
+	      </a>
+
+	      <nav>
+	        <ul>
+	          <li><a href="#home">Home</a></li>
+	          <li><a href="#about">About</a></li>
+	          <li><a href="#contact">Contact</a></li>
+	          <li><a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" target="_blank">Catalog <i class='fas fa-angle-right'></i> </a></li>
+	        </ul>
+	      </nav>
+	    </div>
+	  </header>
+
+
+	<!--sections-->
+
+	<!--home-->
+	<section class="fwh-slide" id="home">
+		
+			<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="banner.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="banner2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="banner3.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+		<!--button-->    
+		<div class="center">
+		<a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" target="_blank">
+		<button type="button">To Catalog <i class='fas fa-angle-right'></i> </button>
+		</a>
+		</div>
+
+	</section>
+
+
+	<!--about us-->
+
+	<section class="fwh-slide fwh-slide--2" id="about">
+
+
+				<div class="wrapper">
+
+					<div class="about_title">
+								<h3>
+									 ABOUT US  
+								</h3>
+								</div>
+					<div class="line"></div>
+				
+				<img class="woman" src="mascot.jpg">
+
+					<div class="text_box">
+						<p>
+							<br>
+						We are team HYPERTEXTILES! We are a fashion recommendations site. We showcase and suggest the best techwear products there are in the market! We strive to support indie brands and artists, and to spread recognition of this style throughout the globe! 
+					<br>
+					<br>
+						We hope our site has piqued your interest for this awesome aesthetic~ o(^▽^)o
+						<br>
+						<br>
+						Oh! And pictured on the right is our mascot, Naevis. She represents our team <i class="fa fa-heart" aria-hidden="true"></i>
+
+						</p>
+
+					</div>
+				</div>
+
+	</section>
+
+	<!--contact-->
+	<section class="fwh-slide fwh-slide--3" id="contact">
+		<div class="wrapper">
+			<h3 class="contact-us-title"> 	
+				CONTACT US
+			</h3>
+			<div class="line"></div>
+
+	<img class="call" src="call.png" alt="hello world!">
+
+<div class="container">
+		  <div class="row">
+			<div class="contact">
+			 <h3><b>Developers contacts</b></h3>
+			    <p>Get in touch with us!</p>
+				<ul>
+					<li><a href="https://twitter.com/PokrfacedArtist" target="_blank">@PokrfacedArtist</a></li>
+					<li><a href="https://twitter.com/vinece_nice" target="_blank">@vinece_nice</a></li>
+					<li><a href="https://twitter.com/driedkangkong" target="_blank">@driedkangkong</a></li>
+				</ul>
+			</div>
+			<div class="contact2">
+			 <h3><b>Tech support</b></h3>
+			   <P>Do you have any problems within the website? We will assist and answer your questions.</P>
+				<ul>
+					<li><a id="myInput">hypertextilesteam@gmail.com</a></li>
+    			<button class="copybutton" onclick="myFunction()">Copy Text!</button>
+				</ul>
+			</div>
+				<!--script for input-->
+
+    <script>
+        function myFunction() {
+            // Get the text content from the div
+            var copyText = document.getElementById("myInput");
+
+            // Create a temporary textarea element to copy the text
+            var tempTextarea = document.createElement("textarea");
+            tempTextarea.value = copyText.innerText;
+            document.body.appendChild(tempTextarea);
+
+            // Select the text in the textarea
+            tempTextarea.select();
+            tempTextarea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text inside the textarea
+            document.execCommand("copy");
+
+            // Remove the temporary textarea
+            document.body.removeChild(tempTextarea);
+
+            // Alert the copied text
+  					alert("Text has been copied!");
+
+        }
+    </script>
+
+		    <div class="contact3">
+			 <h3><b>Developers socials</b></h3>
+			   <p>Follow us for more updates!</p>
+				<ul>
+					<li><a href="https://twitter.com/hypertextiles" target="_blank">Twitter</a></li>
+					<li><a href="https://www.facebook.com/HypertextilesClothing/" target="_blank">Facebook</a></li>
+					<li><a href="https://www.instagram.com/hypertextilesclothing/" target="_blank">Instagram</a></li>
+				</ul>
+
+            </div>
+	      </div>
+		</div>
+		</div>
+
+	</section>
+
+	<!--footer-->
+
+	<footer class="footer">
+	  	 <div class="container">
+	  	 	<div class="row">
+	  	 		<div class="footer-col">
+	  	 			<h4>Designed and Created by Team HYPERTEXTILES</h4>
+	  	 			<ul>
+	  	 				<p>A site dedicated to techwear and fashion! 
+	  	 				<br> 
+	  	 				<br> 
+	  	 				Run by 5 Members.</p>
+	  	 				<br>
+
+	  	 				<br> 
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>information</h4>
+	  	 			<ul>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #about">about us</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #contact">contact</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\faq page\faq.html">FAQ</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>explore</h4>
+	  	 			<ul>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" target="_blank">Catalog</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\brand assets\brand-assets.html">Brand Assets</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>follow us</h4>
+	  	 			<div class="social-links">
+	  	 				<a href="https://www.facebook.com/HypertextilesClothing/"><i class="fab fa-facebook-f"></i></a>
+	  	 				<a href="https://twitter.com/hypertextiles"><i class="fab fa-twitter"></i></a>
+	  	 				<a href="https://www.instagram.com/hypertextilesclothing/"><i class="fab fa-instagram"></i></a>
+	  	 			</div>
+	  	 		</div>
+	  	 		<p style="color: #023436">Copyright <br><br>
+	  	 	©2024 ACRONYM <br> ©2024 Nevstudio <br> ©2024 Niepce Inc</p> 
+	  	 <p style="color: #023436">All Rights Reserved.</p> 
+	  	 	</div>
+	  	 </div>
+
+	  </footer>
+
+
+<!--SCRIPT FOR THE SLIDESHOW-->
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
+
+

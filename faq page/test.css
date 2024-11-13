@@ -1,0 +1,60 @@
+html{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Nova Square';
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*section for centering*/
+section{
+  width: 100%;
+  text-align: center;
+  background-color: #e7e5e5;
+  justify-content: center;
+  display: block;
+}
+
+.container{
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.accordion-item{
+  background-color: #1abc9c;
+  border-radius: 50px 20px 50px 20px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.accordion-link{
+  font-size: 20px;
+  color: #023436;
+  text-decoration: none;
+  background-color: #1abc9c;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link ion-icon{
+  color: #e7e5e5;
+  padding: .5rem;
+}
+
+.accordion-link ion-icon.down{
+  display: none;
+}

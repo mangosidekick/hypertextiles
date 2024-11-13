@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BRAND ASSETS</title>
+
+	<link rel="stylesheet" href="brand-assets.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Nova Square' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	>
+</head>
+
+<!-- bg color -->
+<body style= "background-color:#e7e5e5";> 
+
+<!--header-->
+
+	<header>
+
+<!-- Sidebar -->
+		 <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        id="hamburger"
+      >
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+      </svg>
+
+			<div id="overlay"></div>
+       <div id="sidebar">
+					<svg
+		        xmlns="http://www.w3.org/2000/svg"
+		        viewBox="0 0 24 24"
+		        id="hamburger2"
+		      >
+		        <path d="M0 0h24v24H0z" fill="none" />
+		        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+		      </svg>
+
+							<a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #home" class="sidebar-item">
+		          <div id="bold">Home</div>
+		        </a>
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #about" class="sidebar-item">
+		          <div>About</div>
+		        </a>
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #contact" class="sidebar-item">
+		          <div>Contact</div>
+		        </a>
+
+		        <div class="line_side"></div>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" class="sidebar-item">
+		        	<div id="bold">Catalog</div>
+		        </a>
+
+		        <div class="dropdown">
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html #brands" class="sidebar-item">
+		          <div>Featured Brands <i class='fas fa-angle-right'></i></div>
+		        </a>
+		        <div class="dropdown-content ">
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\NIEPCE.html"> NIEPCE INC</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\ACRNM.html"> ACRNM</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\Featured brands\NEVSTUDIO.html"> NEVSTUDIO</a></div>
+				  	</div>
+		        </div>
+
+		        <div class="dropdown">
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html #category" class="sidebar-item">
+		          <div>Categories <i class='fas fa-angle-right'></i></div>
+		        </a>
+		        <div class="dropdown-content ">
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\selection pages\jackets.html"> Jackets</a></div>
+				    	<div class="dropdown-option"><a href="C:\Users\user\Documents\websites\hypertextiles\selection pages\pants.html"> Pants</a></div>
+				  	</div>
+		      	</div>
+
+		        <div class="line_side"></div>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\faq page\faq.html" class="sidebar-item">
+		        	<div id="bold">FAQ</div>
+		        </a>
+
+		        <a href="C:\Users\user\Documents\websites\hypertextiles\brand assets\brand-assets.html" class="sidebar-item">
+		        	<div id="bold">Brand Assets</div>
+		        </a>
+      </div>
+
+      <script type="text/javascript">
+      	const hamburger = document.getElementById('hamburger')
+      	const hamburger2 = document.getElementById('hamburger2')
+				const sidebar = document.getElementById('sidebar')
+				const overlay = document.getElementById('overlay')
+
+				let menuOpen = false
+
+				function openMenu() {
+				  menuOpen = true
+				  overlay.style.display = 'block'
+				  sidebar.style.width = '200px'
+				}
+
+				function closeMenu() {
+				  menuOpen = false
+				  overlay.style.display = 'none'
+				  sidebar.style.width = '0px'
+				}
+
+				hamburger.addEventListener('click', function () {
+				  if (!menuOpen) {
+				    openMenu()
+				  }
+				})
+
+				overlay.addEventListener('click', function () {
+				  if (menuOpen) {
+				    closeMenu()
+				  }
+				})				
+
+				hamburger2.addEventListener('click', function () {
+				  if (menuOpen) {
+				    closeMenu()
+				  }
+				})
+
+			</script>
+
+      <!--options-->
+	    <div class="container">
+	    	<a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html">
+	      <img class="logo" src="logo.png" alt="logo">
+	      </a>
+
+	      <nav>
+	        <ul>
+	          <li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #home">Home</a></li>
+	          <li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #about">About</a></li>
+	          <li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #contact">Contact</a></li>
+	          <li><a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html">Catalog <i class='fas fa-angle-right'></i> </a></li>
+	        </ul>
+	      </nav>
+	    </div>
+	  </header>
+
+	  <!--heading text-->
+	  <div class="heading">
+	  	<h1>HYPERTEXTILES Brand Assets</h1>
+	  </div>
+
+	<!--content-->
+	<main class="container_main">
+
+<div class="content">
+
+	<div class="one" id="one">
+		<h3 class="title">Logo</h3>
+	<img src="logo2.png">
+	</div>
+
+	<div class="two" id="two">
+		<h3 class="title">Naevis Design</h3>
+		<p class="desc">Full design of our beloved mascot!</p>
+	<img src="hypertextiles mascot.png">
+	</div>
+
+	<div class="three" id="three">
+		<h3 class="title">Naevis Icon</h3>
+		<p class="desc">Located in the About Us section.</p>
+	<img src="mascot.jpg">
+	</div>
+
+	<div class="four" id="four">
+		<h3 class="title">First Home Page Banner Illustration</h3>
+	<img src="banner2.jpg">
+	</div>
+
+	<div class="five" id="five">
+		<h3 class="title">Second Home Page Banner  Illustration</h3>
+	<img src="banner3.jpg">
+	</div>
+
+	<div class="six" id="six">
+		<h3 class="title">Catalog Banner Illustration</h3>
+	<img src="banner4.jpg">
+	</div>
+
+	<div class="seven" id="seven" >
+		<h3 class="title">Contact Page Illustration</h3>
+	<img src="call.png">
+	</div>
+
+	<div class="eight" id="eight">
+		<h3 class="title">Colors</h3>
+		<p class="desc">[from left to right:] (green) #1abc9c | (white) #e7e5e5 | <br> (pink) #f97068 | (dark green) #023436 | (dark teal) #04151f</p>
+	<img src="colors.jpg">
+	</div>
+
+
+
+
+</div>
+
+<!--navbox-->
+
+<div class="navbox">
+	<div class="box">
+
+		<div class="inside">
+			<a href="#one">Logo</a>
+			</div>
+		<div class="inside">
+					<a href="#two">Naevis Design</a>
+					</div>
+		<div class="inside">
+					<a href="#three">Naevis Icon</a>
+					</div>
+		<div class="inside">
+					<a href="#four">First Home Page Banner Illust</a>
+					</div>
+		<div class="inside">
+					<a href="#five">Second Home Page Banner Illust</a>
+					</div>
+		<div class="inside">
+					<a href="#six">Catalog Banner Illust</a>
+					</div>
+		<div class="inside">
+					<a href="#seven">Contact Page Illust</a>
+					</div>
+		<div class="inside">
+					<a href="#eight">Colors</a>
+					</div>
+
+	</div>
+</div>
+</main>
+
+
+	<!--footer-->
+
+	<footer class="footer">
+	  	 <div class="container">
+	  	 	<div class="row">
+	  	 		<div class="footer-col">
+	  	 			<h4>Designed and Created by Team HYPERTEXTILES</h4>
+	  	 			<ul>
+	  	 				<p>A site dedicated to techwear and fashion! 
+	  	 				<br> 
+	  	 				<br> 
+	  	 				Run by 5 Members.</p>
+	  	 				<br> 
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>information</h4>
+	  	 			<ul>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #about">about us</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\home page\home.html #contact">contact</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\faq page\faq.html">FAQ</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>explore</h4>
+	  	 			<ul>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\catalog\catalog.html" target="_blank">Catalog</a></li>
+	  	 				<li><a href="C:\Users\user\Documents\websites\hypertextiles\brand assets\brand-assets.html">Brand Assets</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>follow us</h4>
+	  	 			<div class="social-links">
+	  	 				<a href="https://www.facebook.com/HypertextilesClothing/"><i class="fab fa-facebook-f"></i></a>
+	  	 				<a href="https://twitter.com/hypertextiles"><i class="fab fa-twitter"></i></a>
+	  	 				<a href="https://www.instagram.com/hypertextilesclothing/"><i class="fab fa-instagram"></i></a>
+	  	 			</div>
+	  	 		</div>
+	  	 		<p style="color: #023436">Copyright <br><br>
+	  	 	©2024 ACRONYM <br> ©2024 Nevstudio <br> ©2024 Niepce Inc</p> 
+	  	 <p style="color: #023436">All Rights Reserved.</p> 
+	  	 	</div>
+	  	 </div>
+	  </footer>
+
+
+<!--SCRIPT FOR THE SLIDESHOW-->
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
+
+
